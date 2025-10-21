@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #00594E; 
+}
+
+.modules {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.module {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    margin: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.module:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.submodule {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.submodule:hover {
+    background-color: #B5A160; 
+}
+
+h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #00594E;     
+    text-align: center;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #00594E; 
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #B5A160;
+}
